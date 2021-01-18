@@ -1,0 +1,22 @@
+﻿{
+	"manifest_version": 2,
+             "applications": {
+                "gecko": {
+                   "id": "FrameWhite@Sungho.Hwang",
+                   "strict_min_version": "78.0"
+                 }
+             },
+	"name": "FrameWhite",
+	"version": "63.4",
+	"description": "Enjoy FrameWhite, FrameBlack and LightBlue, LightGreen, LightYellow, LightRed themes.",
+             "icons": {
+                "32": "icons/w_large.png"
+                },
+"browser_action": {
+    "default_icon": "icons/w_large.png",
+    "default_title": "FrameWhite",
+    "default_popup": "popup.html"
+  },
+"permissions": [ "theme"
+        ]
+}
